@@ -1,0 +1,123 @@
+.titulo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+h1{
+    margin: 30px;
+}
+
+/*contenido */
+body{
+    /*background: url(img/fondopc.png) no-repeat;*/
+    font-family: Georgia;
+    width: 100%;
+    margin: auto;
+    background: #FFEEEE;  
+    background: -webkit-linear-gradient(to right, #9b8ed6, #FFEEEE);  
+    background: linear-gradient(to right, #9b8ed6, #FFEEEE); 
+    
+}
+.todo{
+    width: 80%;
+    margin: auto;
+    color: #382878;
+
+}
+.botones{
+
+    font-size: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+button{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    background-color:#a591f4 ;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/*discos ingresados*/
+
+.bloque{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h2{
+    font-size: 30px;
+    margin: auto;
+    padding: 10px;
+    width: auto;
+    border-radius: 20px;
+    text-align: center;
+
+} 
+h3{
+    font-size: 20px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+  
+}
+
+/*bloque*/
+.bloque p{
+    font-size: 16px;
+    color: #382878;
+    text-align: center;
+}
+.bloque img{
+   
+    margin:20px;
+
+}
+
+  /*footer*/
+  footer{
+    margin-top: 40px;
+    width: 100%;
+    margin: auto;
+    background-color: #382878; 
+    padding: 20px;
+    color: #ffffff;
+    position: absolute;
+   
+ 
+}
+
+.flexfooter{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.footer2{
+    width: 40%;
+    font-size: 14px;
+    text-align: center;
+    margin: 20px;
+}
+footer ul li a {color:rgb(255, 255, 255);}
+ 
+
+/*derechos*/
+.final{
+    width: 70%;
+    margin: 30px;
+    padding: 10px;
+    font-size: 16px;
+}
+
